@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# React template
+To optimize the process of writing typical sites.
+
+Implemented features:
+1) the ability to add pages / components
+2) automatic publication in github pages or when merge
+3) naturally configured linting, which can be run locally
+4) use any popular component library.
+5) Tests and linting on CI are run for each commit
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
