@@ -1,6 +1,6 @@
 # React template
 
-To optimize the process of writing typical sites.
+Developed by @maximka65 to optimize the process of writing typical sites.
 
 Implemented features:
 
