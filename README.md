@@ -1,5 +1,5 @@
 # React template
-To optimize the process of writing typical sites.
+Created by @maximka65 to optimize the process of writing typical sites.
 
 Implemented features:
 1) the ability to add pages / components
