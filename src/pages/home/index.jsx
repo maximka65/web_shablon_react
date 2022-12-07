@@ -127,9 +127,6 @@ const Home = () => {
                 <option>
                   4
                 </option>
-                <option>
-                  5
-                </option>
               </Input>
             </FormGroup>
             <FormGroup>
