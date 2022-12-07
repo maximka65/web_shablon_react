@@ -1,6 +1,7 @@
 {
   "name": "max-cucer-job",
   "version": "0.1.0",
+  "homepage": "https://github.com/maximka65/web_shablon_react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
