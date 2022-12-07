@@ -47,6 +47,8 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "textlint": "^12.2.4",
+    "textlint-rule-no-todo": "^2.0.1"
   }
 }
