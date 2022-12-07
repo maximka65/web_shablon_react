@@ -14,6 +14,6 @@ Implemented features:
 
 To run the project locally use <npm run start>
 
-To deploy the project on github pages use <npm run deploy>
+To deploy the project on GitHub pages use <npm run deploy>
 
 #### More comands are initialazed and described in package.json
