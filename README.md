@@ -10,10 +10,13 @@ Implemented features:
 4. use any popular component library.
 5. Tests and linting on CI are run for each commit
 
-## How to run
+### you can access deployed one by this link
+https://maximka65.github.io/test_web/
 
-To run the project locally use <npm run start>
+### How to run
 
-To deploy the project on GitHub pages use <npm run deploy>
+To run the project locally use npm run start
+
+To deploy the project on GitHub pages use npm run deploy
 
 #### More comands are initialazed and described in package.json
