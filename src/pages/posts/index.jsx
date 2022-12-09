@@ -47,7 +47,7 @@ const Posts = () => {
                 <CardBody>
                   <CardTitle tag="h5">{title}</CardTitle>
                   <CardText>{body}</CardText>
-                  </CardBody>
+                </CardBody>
               </Card>
             </Col>
           ))
