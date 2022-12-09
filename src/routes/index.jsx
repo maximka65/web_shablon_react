@@ -7,28 +7,10 @@ import Posts from '../pages/posts';
 
 const Router = () => (
   <Routes>
-    <Route element={(
-      <DefaultLayout />
-    )}
-    >
-      <Route
-        path="/"
-        element={(
-          <Home />
-      )}
-      />
-      <Route
-        path="/posts"
-        element={(
-          <Posts />
-      )}
-      />
-      <Route
-        path="/about"
-        element={(
-          <About />
-      )}
-      />
+    <Route element={<DefaultLayout />}>
+      <Route path="/" element={<Home />} />
+      <Route path="/posts" element={<Posts />} />
+      <Route path="/about" element={<About />} />
     </Route>
   </Routes>
 );

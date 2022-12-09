@@ -1,8 +1,6 @@
 import React from 'react';
 import { Outlet, useLocation } from 'react-router';
-import {
-  Container, Nav, NavItem, NavLink,
-} from 'reactstrap';
+import { Container, Nav, NavItem, NavLink } from 'reactstrap';
 
 const menu = [
   {
@@ -29,18 +27,13 @@ const DefaultLayout = () => {
     <Container>
       <Container>
         <Nav>
-          {
-            menu.map((item) => (
-              <NavItem key={item.id}>
-                <NavLink
-                  active={item.link === pathname}
-                  href={item.link}
-                >
-                  {item.title}
-                </NavLink>
-              </NavItem>
-            ))
-          }
+          {menu.map(item => (
+            <NavItem key={item.id}>
+              <NavLink active={item.link === pathname} href={item.link}>
+                {item.title}
+              </NavLink>
+            </NavItem>
+          ))}
         </Nav>
       </Container>
       <Container>
