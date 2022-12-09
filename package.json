@@ -76,13 +76,11 @@
   },
   "lint-staged": {
     "src/**/**/*.css": [
-      "stylelint --fix",
-      "git add"
+      "stylelint --fix"
     ],
     "src/**/**/*.jsx": [
       "prettier --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "src/**/*.jsx": [
       "prettier --write",
