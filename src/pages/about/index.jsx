@@ -11,9 +11,9 @@ import {
 } from 'reactstrap';
 
 const About = () => {
-  const [modal, setModal] = useState(false);
+  const [isModal, isModalOpen] = useState(false);
 
-  const toggle = () => setModal(!modal);
+  const toggle = () => isModalOpen(!isModal);
 
   return (
     <Container>
