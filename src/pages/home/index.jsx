@@ -126,7 +126,7 @@ const Home = () => {
               </FormText>
             </FormGroup>
             <FormGroup tag="fieldset">
-              <legend>Radio Buttons</legend>
+                 <legend>Radio Buttons</legend>
               <FormGroup check>
                 <Input name="radio1" type="radio" />{' '}
                 <Label check>

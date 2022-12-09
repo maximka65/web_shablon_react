@@ -44,8 +44,9 @@
       "stylelint:fix"
     ],
     "src/**/**/*.jsx": [
-      "prettier --write",
-      "eslint --fix",
+      "prettier",
+      "lint:fix",
+      "stylelint:fix",
       "git add"
     ]
   },
