@@ -44,7 +44,7 @@ const Posts = () => {
           posts.map(({ body, id, title }) => (
             <Col className="mt-2 mb-5">
               <Card className="h-100" key={id}>
-                    <CardBody>
+                  <CardBody>
                   <CardTitle tag="h5">{title}</CardTitle>
                   <CardText>{body}</CardText>
                 </CardBody>
