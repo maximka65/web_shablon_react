@@ -15,8 +15,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx eslint src/*.jsx src/**/**/*.jsx",
-    "lint:fix": "npx eslint src/*.jsx src/**/**/*.jsx --fix",
+    "eslint": "npx eslint src/*.jsx src/**/**/*.jsx",
     "prettier": "npx prettier --write src/*.jsx src/**/**/*.jsx",
     "stylelint": "stylelint '**/**/**/*.css'",
     "stylelint:fix": "stylelint '**/**/**/*.css' --fix",
